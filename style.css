@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #99BC85;
+}
+span{
+    color: #1a611a;
+}
+.heroContainer{
+    background-color: #BFD8AF;
+}
+.but{
+    background-color: #D4E7C5;
+}
+.aboutContainer{
+    background-color: #BFD8AF !important;
+    
+}
+
+.dev{
+   color:#316731 !important;
+
+}
+.list i{
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    padding: 3px;
+    background-color:#316731 !important;
+    color: white !important;
+    font-size: 12px;
+}
+.QuaContainer{
+    background-color: #BFD8AF !important;
+  
+}
+.card{
+    background-color:#99BC85 !important;
+   height: 270px;
+   width: 20rem;
+} 
+.sha{
+    box-shadow: -6px 6px 0 0 #1a611a;
+}
+.skillContainer{
+   background-color: #BFD8AF;
+}
+.car{
+    background-color:#99BC85 !important;
+    width: 15rem;
+   /* height: 100px; */
+}
+.car img{
+    height: 50px;
+}
+.projectContainer{
+    background-color: #BFD8AF !important;
+}
+.cart{
+    height: 100%;
+    width: 100%;
+    background-color:#99BC85 !important;
+    border-radius: 25px;
+}
+.cof img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.4s ease;
+   
+    
+}
+.cof{
+    overflow: hidden;
+    transition: all 0.5s;
+    width: 90%;
+}
+.cof img:hover{
+    transform: scale(1.1);
+}
+.cof:hover{
+    box-shadow: -6px 6px 0 0 #1a611a;
+}
+.buy{
+   background-color: #BFD8AF;
+  
+}
+.contactContainer{
+    background-color: #BFD8AF !important;
+    /* color: black; */
+}
+.btn{
+    background-color: #1a611a !important;
+    width: 20%;
+   
+}
+.footContainer{
+    background-color: #99BC85;
+    /* height: 5vh; */
+}
+
+
+
+@media(max-width:576px){
+    .btn{
+        width: 30%;
+    }
+}
